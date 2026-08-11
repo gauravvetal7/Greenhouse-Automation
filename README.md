@@ -20,40 +20,14 @@ A web-based Streamlit dashboard provides live sensor monitoring, graphical visua
 
 ## 🛠️ Technologies & Skills
 
-### Hardware
-- ESP32
-- DHT11
-- Soil Moisture Sensor
-- LDR
-- Relay Module
-- DC Fan
-- Water Pump
-- Grow Light
+##Hardware
+ESP32 • DHT11 • Soil Moisture Sensor • LDR • Relay Module • DC Fan • Water Pump • Grow Light
 
-### Software
-- Embedded C/C++
-- Arduino IDE
-- Python
-- Flask
-- Streamlit
-- Plotly
-- REST API
-- JSON
-- Wi-Fi / HTTP
+##Software
+Embedded C/C++ • Arduino IDE • Python • Flask • Streamlit • Plotly • REST API • JSON • Wi-Fi/HTTP
 
-### Skills Demonstrated
-- Embedded Systems
-- Microcontroller Programming
-- Sensor Interfacing
-- Actuator Control
-- IoT-Based System Development
-- Hardware–Software Integration
-- REST API Integration
-- Real-Time Data Monitoring
-- Data Visualization
-- Automation Logic
-
----
+##Skills Demonstrated
+Embedded Systems • Microcontroller Programming • Sensor Interfacing • Actuator Control • IoT Development • Hardware–Software Integration • REST API Integration • Real-Time Monitoring • Data Visualization • Automation Logic
 
 ## 📐 System Architecture
 
@@ -96,3 +70,15 @@ A web-based Streamlit dashboard provides live sensor monitoring, graphical visua
                     │ System Status        │
                     │ Device Control       │
                     └──────────────────────┘
+
+
+| Component | ESP32 Pin | Type | Description |
+| :--- | :--- | :--- | :--- |
+| **DHT11 Data** | GPIO 23 | Input | Temp & Humidity Data |
+| **Soil Moisture Sensor** | GPIO 34 (ADC1) | Analog Input | Soil Moisture Level |
+| **LDR (via Divider)** | GPIO 35 (ADC1) | Analog Input | Ambient Light Level |
+| **Relay 1 (Water Pump)**| GPIO 18 | Output | Active LOW/HIGH Trigger |
+| **Relay 2 (Fan)** | GPIO 19 | Output | Active LOW/HIGH Trigger |
+| **Relay 3 (Grow Lights)**| GPIO 21 | Output | Active LOW/HIGH Trigger |
+
+
