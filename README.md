@@ -31,7 +31,7 @@ Embedded Systems • Microcontroller Programming • Sensor Interfacing • Actu
 
 ## 📐 System Architecture
 
-```text
+
                     ┌──────────────────────┐
                     │       Sensors        │
                     │                      │
@@ -70,6 +70,7 @@ Embedded Systems • Microcontroller Programming • Sensor Interfacing • Actu
                     │ System Status        │
                     │ Device Control       │
                     └──────────────────────┘
+
 
 
 | Component | ESP32 Pin | Type | Description |
